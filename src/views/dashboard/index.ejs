@@ -1,0 +1,12 @@
+<div class="container mt-3">
+    <% let email = data.email %>
+    <% let name = data.first_name %>
+    <div class="d-flex justify-content-between align-items-center">
+        <h2><%= email %></h2>
+        <a href="/edit-profile" class="btn btn-primary">Edit Profile</a>
+    </div>
+    
+    <hr>
+
+    <h3>Welcome to your dashboard, <%= name %>!</h3>
+</div>
